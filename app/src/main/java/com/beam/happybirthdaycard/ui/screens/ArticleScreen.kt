@@ -11,6 +11,7 @@ import androidx.compose.ui.res.stringResource
 import androidx.compose.ui.text.style.TextAlign
 import androidx.compose.ui.tooling.preview.Preview
 import androidx.compose.ui.unit.dp
+import androidx.compose.ui.unit.sp
 import com.beam.happybirthdaycard.R
 
 @Composable
@@ -22,6 +23,7 @@ fun ArticleScreen(modifier: Modifier = Modifier) {
         )
         Text(
             text = stringResource(R.string.article_title),
+            fontSize = 24.sp,
             modifier = modifier.padding(16.dp)
         )
         Text(
