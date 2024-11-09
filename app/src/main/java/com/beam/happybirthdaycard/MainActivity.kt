@@ -9,6 +9,7 @@ import androidx.compose.material3.MaterialTheme
 import androidx.compose.material3.Surface
 import androidx.compose.ui.Modifier
 import androidx.compose.ui.res.stringResource
+import com.beam.happybirthdaycard.ui.screens.ArticleScreen
 import com.beam.happybirthdaycard.ui.screens.GreetingImage
 import com.beam.happybirthdaycard.ui.theme.HappyBirthdayCardTheme
 
@@ -22,10 +23,7 @@ class MainActivity : ComponentActivity() {
                     modifier = Modifier.fillMaxSize(),
                     color = MaterialTheme.colorScheme.background
                 ) {
-                    GreetingImage(
-                        message = stringResource(R.string.happy_birthday_text),
-                        from = stringResource(R.string.signature_text),
-                    )
+                    ArticleScreen()
                 }
             }
         }
