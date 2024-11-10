@@ -15,6 +15,7 @@ import androidx.compose.ui.tooling.preview.Preview
 import androidx.compose.ui.unit.dp
 import androidx.compose.ui.unit.sp
 import com.beam.happybirthdaycard.R
+import com.beam.happybirthdaycard.ui.theme.HappyBirthdayCardTheme
 
 @Composable
 fun TaskManagerScreen(modifier: Modifier = Modifier) {
@@ -42,5 +43,7 @@ fun TaskManagerScreen(modifier: Modifier = Modifier) {
 @Preview(showBackground = true, showSystemUi = true)
 @Composable
 fun TaskManagerScreenPreview() {
-    TaskManagerScreen()
+    HappyBirthdayCardTheme {
+        TaskManagerScreen()
+    }
 }
