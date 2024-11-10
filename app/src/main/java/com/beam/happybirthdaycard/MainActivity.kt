@@ -8,7 +8,7 @@ import androidx.compose.foundation.layout.fillMaxSize
 import androidx.compose.material3.MaterialTheme
 import androidx.compose.material3.Surface
 import androidx.compose.ui.Modifier
-import com.beam.happybirthdaycard.ui.screens.TaskManagerScreen
+import com.beam.happybirthdaycard.ui.screens.QuadrantScreen
 import com.beam.happybirthdaycard.ui.theme.HappyBirthdayCardTheme
 
 class MainActivity : ComponentActivity() {
@@ -21,7 +21,7 @@ class MainActivity : ComponentActivity() {
                     modifier = Modifier.fillMaxSize(),
                     color = MaterialTheme.colorScheme.background
                 ) {
-                    TaskManagerScreen()
+                    QuadrantScreen()
                 }
             }
         }
